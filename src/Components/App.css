@@ -1,0 +1,85 @@
+*{
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-style: bold;
+}
+
+.main {
+  margin-top: 5em;
+  padding: 20px;
+}
+
+.center {
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+}
+
+.pr-5{
+  padding: 10px;
+  overflow-y: scroll;
+  max-height: 75vh;
+}
+
+.AddForm{
+  margin: 10px;
+  padding: 20px;
+}
+
+.AddForm *{
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif !important;
+}
+
+.SearchBox{
+  margin: 0px 100px;
+}
+
+.content .header{
+  font-weight: 700;
+  font-size: 1.28571429em;
+  margin-top: -0.21425em;
+  line-height: 1.28571429em;
+}
+
+.Field{
+  padding-left:7px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.options{
+  position:absolute;
+  right: 0;
+  padding: 10px; 
+  height: max-content;
+  margin: auto;
+  margin-left: -100px;
+}
+
+.Filters{
+  display: flex !important;
+  justify-content: center;
+  gap: 50px;
+  margin: auto;
+  color: grey;
+}
+
+.greet_modal{
+  position: fixed !important;
+  top: 0;
+  background-color: white;
+  border: 1px grey solid;
+  border-radius: 10px;
+  margin: 10% 25% !important;
+  z-index: 100;
+  padding: 50px !important;
+}
+
+.black_screen{
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color:rgba(0, 0, 0, 0.5);
+  z-index:5;
+}
