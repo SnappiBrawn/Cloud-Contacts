@@ -5,7 +5,7 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBBAljTCkumDWU4IZlqJMzn90WPM2Y1eK0",
+  apiKey: process.env.FIREBASE_API_KEY,
   authDomain: "cloud-contacts-131eb.firebaseapp.com",
   databaseURL: "https://cloud-contacts-131eb-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "cloud-contacts-131eb",
