@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Cloud-Contacts/static/css/main.09e0bc30.css",
+    "main.js": "/Cloud-Contacts/static/js/main.d19d05df.js",
+    "index.html": "/Cloud-Contacts/index.html",
+    "main.09e0bc30.css.map": "/Cloud-Contacts/static/css/main.09e0bc30.css.map",
+    "main.d19d05df.js.map": "/Cloud-Contacts/static/js/main.d19d05df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09e0bc30.css",
+    "static/js/main.d19d05df.js"
+  ]
+}
